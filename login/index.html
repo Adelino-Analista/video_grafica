@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Login Page</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form class="form-horizontal form-login">
+            <div class="top-content">
+                    <img class="top-icons" src="../imagens/back-arrow.png" alt="">
+                    <img class="top-icons" src="../imagens/heart.png" alt="">
+                </div>
+            <fieldset>
+                <!-- Form Name -->
+                <legend>entre aqui</legend>
+                <p>Planejando seu amanhã</p>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="email">
+                        Nome do usuário
+                    </label>  
+                    <div class="col-md-12">
+                        <input id="email" name="username" type="text" 
+                        placeholder="Entre com seu nome de usuário" class="form-control input-md" 
+                        required="" autocomplete="off">
+                    </div>
+                </div>
+
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="password">
+                        Password
+                    </label>
+                    <div class="col-md-12">
+                        <input id="password" name="password" type="password" 
+                        placeholder="Entre com seu password" class="form-control input-md" 
+                        required="">
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group text-center">
+                    <label class="col-md-4 control-label" for="save"></label>
+                    <div class="col-md-12">
+                        <button id="save" name="save" class="btn btn-success">
+                            Login
+                        </button>
+                    </div>
+                    <a href="../registeration/index.html">Não tem conta? Registre-se aqui</a>
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
